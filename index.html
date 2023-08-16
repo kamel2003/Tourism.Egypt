@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark"  >
+    <div class="container-fluid"  >
+      <a class="navbar-brand text-info"  href="#" style="margin-left: 20PX;" >TOURISM</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent"  >
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-info" aria-current="page" href="#" style="margin-left: 20px;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-info" href="#" style="margin-left: 20px;">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-info" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="margin-left: 20px;">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item text-info" href="#">CAIRO</a></li>
+              <li><a class="dropdown-item text-info" href="#">ALEX</a></li>
+              <li><hr class="dropdown-divider text-info"></li>
+              <li><a class="dropdown-item text-info" href="#">LUXOR</a></li>
+              <li><a class="dropdown-item text-info" href="#">ASWAN</a></li>
+              <li><a class="dropdown-item text-info" href="#">SHARM EL SHIKH</a></li>
+              <li><a class="dropdown-item text-info" href="#">EL GLALA</a></li>
+              
+            </ul>
+          </li>
+          
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" >
+          <button class="btn btn-outline-success " type="submit" style="margin-right: 40PX;" >Search</button>
+        </form>
+
+
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+          LOGIN
+        </button>
+        
+        <!-- The Modal -->
+        <div class="modal" id="myModal" class="row" >
+          <div class="modal-dialog"   >
+            <div class="modal-content" >
+        
+              <!-- Modal Header -->
+              <div class="modal-header bg-info " >
+                <h4 class="modal-title text-light  " >LOGIN</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+        
+              <!-- Modal body -->
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label text-info">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label text-info">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                  </div>
+                  <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label text-info" for="exampleCheck1">Check me out</label>
+                  </div>
+                  <button type="submit" class="btn btn-  bg-info" class="btn1">Submit</button>
+                
+                    <button type="button" class="btn btn- bg-info" data-bs-dismiss="modal" style="margin-left: 320px;">Close</button>
+                  
+                  </div>
+                </form>
+              </div>
+        
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!-- ////////////////////////////// -->
+
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+  
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active carousel-one">
+
+        <div class="overlay">
+          <div class="content">
+            <h2 class="title10"> WELCOME TO SHARM EL SHIKH</h2>
+            <P class="p10"> we have good beach</P>
+            <button class=" btn1">Get Started</button>
+          </div>
+          </div>
+
+      </div>
+      <div class="carousel-item  carousel-two">
+
+        <div class="overlay">
+          <div class="content">
+            <h2 class="title10"> WELCOME TO SIWA</h2>
+            <P class="p10"> we have good natural</P>
+            <button class=" btn1">Get Started</button>
+          </div>
+          </div>
+
+      </div>
+      <div class="carousel-item  carousel-three">
+
+        <div class="overlay">
+          <div class="content">
+            <h2 class="title10"> WELCOME TO LUXUR</h2>
+            <P class="p10"> WE HAVE MONIMMENTS</P>
+            <button class=" btn1">Get Started</button>
+          </div>
+          </div>
+
+      </div>
+    </div>
+  
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+<div class="container-fluid dv1">
+  <div class="row">
+  <div class="col-lg-12 col-md-6 col-sm-12">
+<h2 class="text-light">WELCOME</h2>
+<p class="text-light ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat pariatur quo neque totam aliquid, reprehenderit, repellendus voluptatibus officia exercitationem commodi eos. Maxime soluta quo quaesciunt</p>
+<button type="button" class="btn btn-light text-info btn-lg">Information</button>
+  </div>
+</div>
+</div>
+
+<div class="container-fluid dv2">
+<dv class="row">
+<div class="col-lg-12 col-md-6 col-sm-12">
+  <h3> popular destnitions in egypt</h3>
+</div>
+</dv>
+</div>
+   
+
+<!-- //////////////////////////////// -->
+
+ <div class="container-fluid">
+<div class="row">
+  <div class="accordion col-sm-12" id="accordionExample">
+    <div class="accordion-item col-sm-12">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          GIZA CITY
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show col-sm-12" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body col-sm-12">
+          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item col-sm-12">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          LUXOR CITY
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse col-sm-12" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body col-sm-12">
+          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the , though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item col-sm-12">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        SINAI PENINSULA
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse col-sm-12" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="accordion-body col-sm-12">
+          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the , though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+ </div> 
+<!-- /////////////////////// -->
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12 dv3">
+      <h3>transalate from arapic to english</h3>
+    </div>
+    <div class="col-sm-12 dv-3">
+      <p>write and transalate<button type="button" class="btn ">CLIC HERE</button> </p> 
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"> Copy</button>
+        <!-- Modal -->
+        <div class="modal fade col-sm-12" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog col-sm-12">
+            <div class="modal-content  col-sm-12">
+              <div class="modal-header  col-sm-12">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body col-sm-12"> تم نسخ النص
+              </div>
+              <div class="modal-footer  col-sm-12">
+                <button type="button" class="btn btn-secondary bg-primary" data-bs-dismiss="modal">OK</button>
+                </div>
+            </div>
+          </div>
+        </div></p>
+    <div class="form-floating col-sm-12">
+    <textarea class="form-control " placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+    <label for="floatingTextarea">Translate</label>
+  </div> </div>
+  <div class="testimonial  col-sm-12"  >
+    <div class="overlay5  col-sm-12" style="    background-color: rgba(0,0,0,0.5); height: 100%;"></div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12 dv3">
+      <h3>transalate from arapic to frensh</h3>
+    </div>
+    <div class="col-sm-12 dv-3">
+      <p>write and transalate<button type="button" class="btn ">CLIC HERE</button> </p> 
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"> Copy</button>
+        <!-- Modal -->
+        <div class="modal fade col-sm-12" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog col-sm-12">
+            <div class="modal-content  col-sm-12">
+              <div class="modal-header  col-sm-12">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body col-sm-12"> تم نسخ النص
+              </div>
+              <div class="modal-footer  col-sm-12">
+                <button type="button" class="btn btn-secondary bg-primary" data-bs-dismiss="modal">OK</button>
+                </div>
+            </div>
+          </div>
+        </div></p>
+    <div class="form-floating col-sm-12">
+    <textarea class="form-control " placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+    <label for="floatingTextarea">Translate</label>
+  </div> </div>
+  <div class="testimonial  col-sm-12"  >
+    <div class="overlay5  col-sm-12" style="    background-color: rgba(0,0,0,0.5); height: 100%;"></div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12 dv3">
+      <h3>transalate from arapic to german</h3>
+    </div>
+    <div class="col-sm-12 dv-3">
+      <p>write and transalate<button type="button" class="btn ">CLIC HERE</button> </p> 
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"> Copy</button>
+        <!-- Modal -->
+        <div class="modal fade col-sm-12" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog col-sm-12">
+            <div class="modal-content  col-sm-12">
+              <div class="modal-header  col-sm-12">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body col-sm-12"> تم نسخ النص
+              </div>
+              <div class="modal-footer  col-sm-12">
+                <button type="button" class="btn btn-secondary bg-primary" data-bs-dismiss="modal">OK</button>
+                </div>
+            </div>
+          </div>
+        </div></p>
+    <div class="form-floating col-sm-12">
+    <textarea class="form-control " placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+    <label for="floatingTextarea">Translate</label>
+  </div> </div>
+  <div class="testimonial  col-sm-12"  >
+    <div class="overlay5  col-sm-12" style="    background-color: rgba(0,0,0,0.5); height: 100%;"></div>
+    </div>
+  </div>
+</div>
+
+<!-- /////////////////////////////// -->
+
+<div class="container-fluid ">
+<div class="row">
+
+  <div class="col-sm-12 dv4">
+
+  </div>
+</div>
+</div>
+<!-- /////////////////////// -->
+
+<div class="container-fluid">
+<div class="row">
+  <div class="col-sm-12 dv5">
+    <h3>popular destnitions in egypt</h3>
+  </div>
+</div>
+</div>
+<!-- ///////////////////////////// -->
+
+
+
+  <div class="container  ">
+    <div class="row mb-5  justify-content-around">
+
+      <div class="col-sm-12 col-md-6 col-lg-3  welcomdiv position-relative">
+        <div class="card">
+          <img src="images/alex/IMG-20230227-WA0035.jpg" class="card-img-top" style="height: 250px;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">ALEX</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-sm-12 col-md-6 col-lg-3  welcomdiv position-relative ">
+        <div class="card">
+          <img src="images/aswan/img11.jpg" class="card-img-top" style="height: 250px;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">ASWAN</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+    </div>
+
+
+      <div class="col-sm-12 col-md-6 col-lg-3  welcomdiv position-relative">
+        <div class="card">
+          <img src="images/galalh/IMG-20230227-WA0041.jpg" class="card-img-top" style="height: 250px;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"> SIWA</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class=" ol-sm-12 col-md-6 col-lg-3  welcomdiv  position-relative">
+        <div class="card">
+          <img src="images/Hurghada/ralf-schlegel-gGIaHmXcSp8-unsplash.jpg" class="card-img-top" style="height: 250px;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">SHARM EL SHIKH</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-3  welcomdiv position-relative">
+      <div class="card">
+          <img src="images/new cairo/IMG-20230227-WA0047.jpg " class="card-img-top" style="height: 250px;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">CAIRO</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-sm-12 col-md-6 col-lg-3  welcomdiv position-relative">
+        <div class="card">
+          <img src="images/luxur/img3.jpg" class="card-img-top" style="height: 250px;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">LUXUR</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-sm-12 col-md-6 col-lg-3  welcomdiv position-relative">
+        <div class="card">
+          <img src="images/aswan/img3.jpg" class="card-img-top" style="height: 250px;" alt="...">
+          <div class="card-body">
+          <h5 class="card-title">Hurghada</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+        </div>
+      </div>
+
+
+      <div class="col-sm-12 col-md-6 col-lg-3  welcomdiv position-relative">
+        <div class="card">
+          <img src="images/siwa/img6.jpg" class="card-img-top" style="height: 250px;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">GALALH</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- //////////////////////////// -->
+  <div class="container-fluid ">
+    <div class="row">
+    
+      <div class="col-sm-12 dv6">
+    
+      </div>
+    </div>
+    </div>
+<!-- //////////////////////////// -->
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12 dv7">
+      <h3>THANKS FOR COMMING EGYPT</h3>
+    </div>
+  </div>
+  </div>
+
+<!-- ///////////////////// -->
+
+<div class="container  ">
+  <div class="row mb-5  justify-content-around">
+
+    <div class="col-sm-12 col-md-6 col-lg-3   position-relative  trans-con ">
+      <div class="card card-container1 ">
+        <h6 class="h-titlee">thanks for visiting aswan</h6>
+        <div class="card-body ">
+          <div class="img-container"><img src="images/trainer-1.jpg" class="rounded-circle"  alt="Cinque Terre">
+            <p class="card-title">ALEX <br>engineer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-sm-12 col-md-6 col-lg-3   position-relative  trans-con ">
+      <div class="card card-container2">
+        <h6 class="h-titlee">thanks for visiting luxur</h6>
+        <div class="card-body ">
+          <div class="img-container"><img src="images/trainer-2.jpg" class="rounded-circle"  alt="Cinque Terre">
+            <p class="card-title"> Sophia<br>model</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-sm-12 col-md-6 col-lg-3   position-relative  trans-con ">
+      <div class="card card-container3">
+        <h6 class="h-titlee">thanks for visiting SHARM </h6>
+        <div class="card-body ">
+          <div class="img-container"><img src="images/trainer-3.jpg" class="rounded-circle"  alt="Cinque Terre">
+            <p class="card-title">jan <br>doctor</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    
+
+  </div>
+</div>
+
+<!-- ////////////////////////////// -->
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12 dv8">
+      <h3>EGYPT NEWS</h3>
+    </div>
+  </div>
+  </div>
+
+<!-- ////////////////////// -->
+
+<div class="container">
+  <div class=" row podcast2">
+    
+    <div  class="col-8" >
+      <div class="text1 ">
+        <h4> podcast title</h4>
+        <span> <i class="fas fa-calendar-day "></i>  MON, May 25th 2022</span>
+        <div class="line bg-primary"></div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum ullam perferendis tempora reiciendis rem dolorum vel iste, provident quo necessitatibus. <br> Quibusdam deserunt repellat dolorem ab possimus </p>
+        <div class="bod-btn">
+          <a href="#" class="btn btn-secondary  "> <i class="fas fa-edit"></i>  podcast</a>
+          <a href="#" class="btn  btn-secondary"> <i class="far fa-clock"></i>  55mins</a>
+          <a href="#" class="btn  btn-secondary"> <i class="fas fa-edit"></i>  play episod</a>
+        </div>
+        </div>
+    </div>
+
+<div class="news-image col-4">
+    <img src="images/galalh/IMG-20230227-WA0042.jpg"  alt="">
+  </div>
+
+</div>
+
+<!-- ////// -->
+
+<div class=" row podcast2">
+
+  <div  class="col-8" >
+    <div class="text1 ">
+      <h4> podcast title</h4>
+      <span> <i class="fas fa-calendar-day "></i>  MON, May 25th 2022</span>
+      <div class="line bg-primary"></div>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum ullam perferendis tempora reiciendis rem dolorum vel iste, provident quo necessitatibus. <br> Quibusdam deserunt repellat dolorem ab possimus </p>
+      <div class="bod-btn">
+        <a href="#" class="btn btn-secondary  "> <i class="fas fa-edit"></i>  podcast</a>
+        <a href="#" class="btn  btn-secondary"> <i class="far fa-clock"></i>  55mins</a>
+        <a href="#" class="btn  btn-secondary"> <i class="fas fa-edit"></i>  play episod</a>
+      </div>
+      </div>
+  </div>
+
+  <div class="news-image col-4">
+    <img src="images/sharm/img2.jpg"  alt="">
+  </div>
+</div>
+
+<!-- ///////////////////// -->
+
+<div class=" row podcast2">
+    
+  <div  class="col-8" >
+    <div class="text1 ">
+      <h4> podcast title</h4>
+      <span> <i class="fas fa-calendar-day "></i>  MON, May 25th 2022</span>
+      <div class="line bg-primary"></div>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum ullam perferendis tempora reiciendis rem dolorum vel iste, provident quo necessitatibus. <br> Quibusdam deserunt repellat dolorem ab possimus </p>
+      <div class="bod-btn">
+        <a href="#" class="btn btn-secondary  "> <i class="fas fa-edit"></i>  podcast</a>
+        <a href="#" class="btn  btn-secondary"> <i class="far fa-clock"></i>  55mins</a>
+        <a href="#" class="btn  btn-secondary"> <i class="fas fa-edit"></i>  play episod</a>
+      </div>
+      </div>
+  </div>
+
+<div class="news-image col-4">
+  <img src="images/Hurghada/ralf-schlegel-gGIaHmXcSp8-unsplash.jpg"  alt="">
+</div>
+</div>
+
+<!-- ////////// -->
+<div class=" row podcast2">
+    
+  <div  class="col-8" >
+    <div class="text1 ">
+      <h4> podcast title</h4>
+      <span> <i class="fas fa-calendar-day "></i>  MON, May 25th 2022</span>
+      <div class="line bg-primary"></div>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum ullam perferendis tempora reiciendis rem dolorum vel iste, provident quo necessitatibus. <br> Quibusdam deserunt repellat dolorem ab possimus </p>
+      <div class="bod-btn">
+        <a href="#" class="btn btn-secondary  "> <i class="fas fa-edit"></i>  podcast</a>
+        <a href="#" class="btn  btn-secondary"> <i class="far fa-clock"></i>  55mins</a>
+        <a href="#" class="btn  btn-secondary"> <i class="fas fa-edit"></i>  play episod</a>
+      </div>
+      </div>
+  </div>
+
+<div class="news-image col-4">
+  <img src="images/Hurghada/zyanya-OMwEkftvQKs-unsplash.jpg"  alt="">
+</div>
+</div>
+
+
+<!-- //////////////////////////////////////// -->
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12 dv99">
+      <h3>JOIN US</h3>
+    </div>
+  </div>
+  </div>
+  <!-- ///////////////////// -->
+  
+  <div class="container-fluid">
+    <div class="row">
+
+      <div class="col-md-3 kk">
+        <div class="card ">
+          <h6 class="h6-subscripe">SUBSCRIPE NOW</h6>
+          <div class="card-body">
+            <div class="img-supscripe"> <a href="IMAGE_URL_HERE"><img class="img-fluid" src="images/insta.jpg" alt="ALT_TEXT_HERE"></a> </div>
+              <a href="#" class="a-supscrip" >go to link</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-3 kk">
+        <div class="card">
+          <h6 class="h6-subscripe">SUBSCRIPE NOW</h6>
+          <div class="card-body">
+            <div class="img-supscripe"> <a href="IMAGE_URL_HERE"><img class="img-fluid" src="images/twetter.jpg" alt="ALT_TEXT_HERE"></a> </div>
+              <a href="#" class="a-supscrip" >go to link</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-3 kk">
+        <div class="card">
+          <h6 class="h6-subscripe">SUBSCRIPE NOW</h6>
+          <div class="card-body">
+            <div class="img-supscripe"> <a href="IMAGE_URL_HERE"><img class="img-fluid" src="images/in.jpg" alt="ALT_TEXT_HERE"></a> </div>
+              <a href="#" class="a-supscrip" >go to link</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-3 kk">
+        <div class="card">
+          <h6 class="h6-subscripe">SUBSCRIPE NOW</h6>
+          <div class="card-body">
+            <div class="img-supscripe"> <a href="IMAGE_URL_HERE"><img class="img-fluid" src="images/tectok.jpg" alt="ALT_TEXT_HERE"></a> </div>
+              <a href="#" class="a-supscrip" >go to link</a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- /////////////////////////////////// -->
+
+<div class="container-fluid">
+<div class="row con-links">
+  <hr style="color:whitesmoke; margin-top: 30px !important ;" >
+  <div class="col-md-4">
+    <p class="parg-1"><img src="images/logo1.jpg" class="rounded-circle img-fluid img-link" alt="Cinque Terre">    GOOD COMPANY</p>
+    <hr class="hr1">
+
+    <div class="content1">
+    <p class="parg-2">tel :  +201557492079</p>
+    <P class="parg-3"> ADRESS : EGYPT</P>
+    <a href="mailto:kamelg913@gmail.com" class="mail-1">  mail us</a>
+    </div>
+
+  </div>
+
+
+  
+  <div class="col-md-4">
+    <p class="parg-1"> <img src="images/logo1.jpg" class="rounded-circle img-fluid  img-link" alt="Cinque Terre">   IMPORTANT LINKS</p>
+    <hr class="hr1">
+
+    <div class="content1">
+
+  <a href="https://www.google.com" target="_blank" class="group-link"> visil us</a>
+  <a href="mailto:kamelg913@gmail.com" class="group-link"> clic her to mail us</a>
+  <a href="tel:+201557492079"  class="group-link"> call us</a>
+  </div>
+
+  </div>
+
+  <div class="col-md-4">
+    <p class="parg-1"> <img src="images/logo1.jpg" class="rounded-circle img-fluid img-link " alt="Cinque Terre">    VISION</p>
+    <hr class="hr1">
+
+    <div class="content1">
+      <a href="https://www.google.com" target="_blank" class="group-link"> ALL SERVEICES</a>
+      <a href="mailto:kamelg913@gmail.com" class="group-link"> PROVIDE BEST SERVEICES</a>
+      <a href="tel:+201557492079"  class="group-link"> call us</a>
+      </div>
+  </div>
+  <hr style="color:whitesmoke;">
+  <p class="copy-right"> ALL COPYRIGHT &COPY; 2023  FOR ENGINEER : KAMEL GAMAL</p>
+  <hr style="color:whitesmoke;">
+</div>
+</div>
+
+
+
+<script src="js/script.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
